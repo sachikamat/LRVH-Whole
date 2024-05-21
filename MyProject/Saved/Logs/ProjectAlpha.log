@@ -2944,3 +2944,351 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.05.21-12.49.02:395][810]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 1.70 sec)
 [2024.05.21-12.49.02:399][810]AssetCheck: New page: Asset Save: BP_mySpawnedActor
 [2024.05.21-12.49.02:399][810]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Sachi/BP_mySpawnedActor.BP_mySpawnedActor
+[2024.05.21-12.51.50:638][895]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.21-12.51.50:644][895]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.05.21-12.51.50:644][895]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.05.21-12.51.50:647][895]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 33 ms)
+[2024.05.21-12.51.50:652][895]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.21-12.51.50:652][895]PIE: New page: PIE session: ThirdPersonMap (21.05.2024, 16:51:50)
+[2024.05.21-12.51.50:652][895]LogPlayLevel: Creating play world package: /Game/Sachi/UEDPIE_0_ThirdPersonMap
+[2024.05.21-12.51.50:659][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007045s)
+[2024.05.21-12.51.50:659][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sachi/ThirdPersonMap.ThirdPersonMap to /Game/Sachi/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.007106s)
+[2024.05.21-12.51.50:680][895]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.05.21-12.51.50:682][895]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.21-12.51.50:682][895]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.21-12.51.50:683][895]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.05.21-12.51.50:684][895]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.05.21-12.51.50:684][895]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.05.21-12.51.50:684][895]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.05.21-12.51.50:684][895]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.05.21-12.51.50:686][895]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.05.21-12.51.50:686][895]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 466 ms)
+[2024.05.21-12.51.50:686][895]LogPlayLevel: PIE: World Init took: (0.003824s)
+[2024.05.21-12.51.50:686][895]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.05.21-12.51.50:686][895]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.21-12.51.50:686][895]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.21-12.51.50:686][895]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.21-12.51.50:686][895]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.21-12.51.50:686][895]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.21-12.51.50:686][895]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.21-12.51.50:686][895]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.21-12.51.50:686][895]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.21-12.51.50:687][895]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.21-12.51.50:687][895]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.21-12.51.50:687][895]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.21-12.51.50:689][895]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.21-12.51.50:723][895]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (Realtek(R) Audio)
+[2024.05.21-12.51.50:723][895]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.21-12.51.50:723][895]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.21-12.51.50:723][895]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.21-12.51.50:725][895]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.05.21-12.51.50:725][895]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.05.21-12.51.50:727][895]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.05.21-12.51.50:727][895]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.05.21-12.51.50:727][895]LogInit: FAudioDevice initialized with ID 12.
+[2024.05.21-12.51.50:727][895]LogAudio: Display: Audio Device (ID: 12) registered with world 'ThirdPersonMap'.
+[2024.05.21-12.51.50:727][895]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.05.21-12.51.50:730][895]LogLoad: Game class is 'GM_Walker_C'
+[2024.05.21-12.51.50:735][895]LogWorld: Bringing World /Game/Sachi/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.05.21-14.51.50
+[2024.05.21-12.51.50:736][895]LogWorld: Bringing up level for play took: 0.005803
+[2024.05.21-12.51.50:738][895]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.05.21-12.51.50:739][895]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.05.21-12.51.50:739][895]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.05.21-12.51.50:739][895]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.05.21-12.51.50:744][895]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.05.21-12.51.50:744][895]PIE: Server logged in
+[2024.05.21-12.51.50:745][895]PIE: Play in editor total start time 0,1 seconds.
+[2024.05.21-12.51.55:661][157]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor0
+[2024.05.21-12.52.00:644][425]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor1
+[2024.05.21-12.52.05:649][695]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor2
+[2024.05.21-12.52.10:648][965]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor3
+[2024.05.21-12.52.15:651][239]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor4
+[2024.05.21-12.52.20:645][516]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor5
+[2024.05.21-12.52.25:649][788]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor6
+[2024.05.21-12.52.30:647][ 60]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor7
+[2024.05.21-12.52.35:645][332]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor8
+[2024.05.21-12.52.40:642][603]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor9
+[2024.05.21-12.52.45:653][875]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor10
+[2024.05.21-12.52.50:657][146]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor11
+[2024.05.21-12.52.55:648][415]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor12
+[2024.05.21-12.53.00:649][685]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor13
+[2024.05.21-12.53.05:648][956]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor14
+[2024.05.21-12.53.10:649][227]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor15
+[2024.05.21-12.53.15:641][499]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor16
+[2024.05.21-12.53.20:654][769]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor17
+[2024.05.21-12.53.25:643][ 37]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor18
+[2024.05.21-12.53.40:011][696]LogSlate: Window 'Content Browser' being destroyed
+[2024.05.21-12.53.40:018][696]LogSlate: Window 'Content Browser' being destroyed
+[2024.05.21-12.54.06:588][899]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.21-12.54.06:588][899]LogWorld: BeginTearingDown for /Game/Sachi/UEDPIE_0_ThirdPersonMap
+[2024.05.21-12.54.06:589][899]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.05.21-12.54.06:589][899]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.21-12.54.06:590][899]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.05.21-12.54.06:597][899]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.21-12.54.06:601][899]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.21-12.54.06:619][899]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.21-12.54.06:620][899]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.05.21-12.54.06:620][899]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.05.21-12.54.06:622][899]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.05.21-12.54.06:633][899]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.05.21-12.54.06:709][900]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.05.21-12.56.43:591][625]BlueprintLog: New page: Compile BP_mySpawnedActor
+[2024.05.21-12.56.43:634][625]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.05.21-12.56.45:173][665]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.21-12.56.45:242][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sachi/BP_mySpawnedActor" FILE="../../../../../../Users/kamatsac/Documents/Unreal Projects/MyProject/Content/Sachi/BP_mySpawnedActor.uasset" SILENT=true
+[2024.05.21-12.56.45:248][665]LogSavePackage: Moving output files for package: /Game/Sachi/BP_mySpawnedActor
+[2024.05.21-12.56.45:249][665]LogSavePackage: Moving '../../../../../../Users/kamatsac/Documents/Unreal Projects/MyProject/Saved/BP_mySpawnedActorDB8E7F43485BC3E03BF2A08321DC46F0.tmp' to '../../../../../../Users/kamatsac/Documents/Unreal Projects/MyProject/Content/Sachi/BP_mySpawnedActor.uasset'
+[2024.05.21-12.56.45:256][665]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 1.78 sec)
+[2024.05.21-12.56.45:263][665]AssetCheck: New page: Asset Save: BP_mySpawnedActor
+[2024.05.21-12.56.45:263][665]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Sachi/BP_mySpawnedActor.BP_mySpawnedActor
+[2024.05.21-12.56.49:593][774]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.21-12.56.49:598][774]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.05.21-12.56.49:598][774]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.05.21-12.56.49:601][774]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 3 ms (total: 36 ms)
+[2024.05.21-12.56.49:607][774]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.21-12.56.49:607][774]PIE: New page: PIE session: ThirdPersonMap (21.05.2024, 16:56:49)
+[2024.05.21-12.56.49:607][774]LogPlayLevel: Creating play world package: /Game/Sachi/UEDPIE_0_ThirdPersonMap
+[2024.05.21-12.56.49:613][774]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006074s)
+[2024.05.21-12.56.49:613][774]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sachi/ThirdPersonMap.ThirdPersonMap to /Game/Sachi/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.006153s)
+[2024.05.21-12.56.49:631][774]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.05.21-12.56.49:633][774]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.21-12.56.49:633][774]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.21-12.56.49:634][774]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.05.21-12.56.49:634][774]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.05.21-12.56.49:634][774]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.05.21-12.56.49:634][774]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.05.21-12.56.49:634][774]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.05.21-12.56.49:636][774]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.05.21-12.56.49:636][774]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 468 ms)
+[2024.05.21-12.56.49:637][774]LogPlayLevel: PIE: World Init took: (0.003828s)
+[2024.05.21-12.56.49:637][774]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.05.21-12.56.49:637][774]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.21-12.56.49:637][774]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.21-12.56.49:637][774]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.21-12.56.49:637][774]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.21-12.56.49:637][774]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.21-12.56.49:637][774]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.21-12.56.49:637][774]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.21-12.56.49:637][774]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.21-12.56.49:638][774]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.21-12.56.49:638][774]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.21-12.56.49:638][774]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.21-12.56.49:640][774]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.21-12.56.49:676][774]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (Realtek(R) Audio)
+[2024.05.21-12.56.49:677][774]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.21-12.56.49:677][774]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.21-12.56.49:677][774]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.21-12.56.49:679][774]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.05.21-12.56.49:679][774]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.05.21-12.56.49:681][774]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.05.21-12.56.49:681][774]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.05.21-12.56.49:681][774]LogInit: FAudioDevice initialized with ID 13.
+[2024.05.21-12.56.49:682][774]LogAudio: Display: Audio Device (ID: 13) registered with world 'ThirdPersonMap'.
+[2024.05.21-12.56.49:682][774]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.05.21-12.56.49:684][774]LogLoad: Game class is 'GM_Walker_C'
+[2024.05.21-12.56.49:689][774]LogWorld: Bringing World /Game/Sachi/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.05.21-14.56.49
+[2024.05.21-12.56.49:690][774]LogWorld: Bringing up level for play took: 0.006003
+[2024.05.21-12.56.49:693][774]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.05.21-12.56.49:694][774]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.05.21-12.56.49:694][774]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.05.21-12.56.49:694][774]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.05.21-12.56.49:698][774]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.05.21-12.56.49:698][774]PIE: Server logged in
+[2024.05.21-12.56.49:699][774]PIE: Play in editor total start time 0,101 seconds.
+[2024.05.21-12.56.54:608][ 31]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor0
+[2024.05.21-12.56.59:601][299]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor1
+[2024.05.21-12.57.04:603][573]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor2
+[2024.05.21-12.57.09:612][846]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor3
+[2024.05.21-12.57.14:605][113]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor4
+[2024.05.21-12.57.19:610][386]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor5
+[2024.05.21-12.57.24:758][558]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.21-12.57.24:758][558]LogWorld: BeginTearingDown for /Game/Sachi/UEDPIE_0_ThirdPersonMap
+[2024.05.21-12.57.24:759][558]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.05.21-12.57.24:759][558]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.21-12.57.24:759][558]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.05.21-12.57.24:765][558]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.21-12.57.24:770][558]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.21-12.57.24:787][558]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.21-12.57.24:787][558]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.05.21-12.57.24:788][558]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.05.21-12.57.24:790][558]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.05.21-12.57.24:800][558]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.05.21-12.57.24:876][559]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.05.21-12.58.34:126][292]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.21-12.58.34:163][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sachi/BP_mySpawnVolume" FILE="../../../../../../Users/kamatsac/Documents/Unreal Projects/MyProject/Content/Sachi/BP_mySpawnVolume.uasset" SILENT=true
+[2024.05.21-12.58.34:171][292]LogSavePackage: Moving output files for package: /Game/Sachi/BP_mySpawnVolume
+[2024.05.21-12.58.34:172][292]LogSavePackage: Moving '../../../../../../Users/kamatsac/Documents/Unreal Projects/MyProject/Saved/BP_mySpawnVolumeFB960DDE446323145AAF0D8624F52B2B.tmp' to '../../../../../../Users/kamatsac/Documents/Unreal Projects/MyProject/Content/Sachi/BP_mySpawnVolume.uasset'
+[2024.05.21-12.58.34:179][292]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 1.83 sec)
+[2024.05.21-12.58.34:182][292]AssetCheck: New page: Asset Save: BP_mySpawnVolume
+[2024.05.21-12.58.34:182][292]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Sachi/BP_mySpawnVolume.BP_mySpawnVolume
+[2024.05.21-13.01.23:455][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.05.21-13.01.23:457][ 21]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Sachi/ThirdPersonMap' took 0.022
+[2024.05.21-13.01.23:458][ 21]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Sachi/BP_mySpawnedActor] ([2] browsable assets)...
+[2024.05.21-13.01.23:469][ 21]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Sachi/BP_mySpawnedActor.BP_mySpawnedActor]
+[2024.05.21-13.01.23:469][ 21]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sachi/BP_mySpawnedActor]
+[2024.05.21-13.01.23:474][ 21]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Sachi/BP_mySpawnedActor_Auto3
+[2024.05.21-13.01.23:474][ 21]LogSavePackage: Moving '../../../../../../Users/kamatsac/Documents/Unreal Projects/MyProject/Saved/BP_mySpawnedActor_Auto3C4444DBE43FC2B4594C63F988C9668EA.tmp' to '../../../../../../Users/kamatsac/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Sachi/BP_mySpawnedActor_Auto3.uasset'
+[2024.05.21-13.01.23:475][ 21]LogFileHelpers: Auto-saving content packages took 0.018
+[2024.05.21-13.02.51:738][649]LogDerivedDataCache: C:/Users/kamatsac/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.059 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 555 files in 926 folders with total size 3 MiB.
+[2024.05.21-13.03.51:739][697]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.21-13.03.51:805][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sachi/BP_mySpawnedActor" FILE="../../../../../../Users/kamatsac/Documents/Unreal Projects/MyProject/Content/Sachi/BP_mySpawnedActor.uasset" SILENT=true
+[2024.05.21-13.03.51:811][697]LogSavePackage: Moving output files for package: /Game/Sachi/BP_mySpawnedActor
+[2024.05.21-13.03.51:812][697]LogSavePackage: Moving '../../../../../../Users/kamatsac/Documents/Unreal Projects/MyProject/Saved/BP_mySpawnedActor0BCC15DC4B3DC278F465C9BAF804842C.tmp' to '../../../../../../Users/kamatsac/Documents/Unreal Projects/MyProject/Content/Sachi/BP_mySpawnedActor.uasset'
+[2024.05.21-13.03.51:822][697]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 1.92 sec)
+[2024.05.21-13.03.51:823][697]AssetCheck: New page: Asset Save: BP_mySpawnedActor
+[2024.05.21-13.03.51:823][697]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Sachi/BP_mySpawnedActor.BP_mySpawnedActor
+[2024.05.21-13.03.52:464][714]BlueprintLog: New page: Compile BP_mySpawnedActor
+[2024.05.21-13.03.52:509][714]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.05.21-13.04.01:259][908]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.21-13.04.01:264][908]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.05.21-13.04.01:264][908]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.05.21-13.04.01:266][908]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 38 ms)
+[2024.05.21-13.04.01:272][908]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.21-13.04.01:272][908]PIE: New page: PIE session: ThirdPersonMap (21.05.2024, 17:04:01)
+[2024.05.21-13.04.01:272][908]LogPlayLevel: Creating play world package: /Game/Sachi/UEDPIE_0_ThirdPersonMap
+[2024.05.21-13.04.01:278][908]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006448s)
+[2024.05.21-13.04.01:279][908]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sachi/ThirdPersonMap.ThirdPersonMap to /Game/Sachi/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.006524s)
+[2024.05.21-13.04.01:296][908]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.05.21-13.04.01:299][908]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.21-13.04.01:299][908]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.21-13.04.01:299][908]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.05.21-13.04.01:300][908]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.05.21-13.04.01:300][908]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.05.21-13.04.01:300][908]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.05.21-13.04.01:300][908]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.05.21-13.04.01:302][908]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.05.21-13.04.01:302][908]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 470 ms)
+[2024.05.21-13.04.01:302][908]LogPlayLevel: PIE: World Init took: (0.003656s)
+[2024.05.21-13.04.01:302][908]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.05.21-13.04.01:302][908]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.21-13.04.01:302][908]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.21-13.04.01:302][908]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.21-13.04.01:302][908]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.21-13.04.01:302][908]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.21-13.04.01:302][908]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.21-13.04.01:303][908]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.21-13.04.01:303][908]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.21-13.04.01:303][908]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.21-13.04.01:303][908]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.21-13.04.01:303][908]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.21-13.04.01:306][908]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.21-13.04.01:341][908]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (Realtek(R) Audio)
+[2024.05.21-13.04.01:341][908]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.21-13.04.01:341][908]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.21-13.04.01:341][908]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.21-13.04.01:342][908]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.05.21-13.04.01:342][908]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.05.21-13.04.01:344][908]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.05.21-13.04.01:344][908]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.05.21-13.04.01:344][908]LogInit: FAudioDevice initialized with ID 14.
+[2024.05.21-13.04.01:345][908]LogAudio: Display: Audio Device (ID: 14) registered with world 'ThirdPersonMap'.
+[2024.05.21-13.04.01:345][908]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.05.21-13.04.01:346][908]LogLoad: Game class is 'GM_Walker_C'
+[2024.05.21-13.04.01:351][908]LogWorld: Bringing World /Game/Sachi/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.05.21-15.04.01
+[2024.05.21-13.04.01:352][908]LogWorld: Bringing up level for play took: 0.005401
+[2024.05.21-13.04.01:355][908]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2024.05.21-13.04.01:356][908]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.05.21-13.04.01:356][908]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.05.21-13.04.01:356][908]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.05.21-13.04.01:360][908]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.05.21-13.04.01:360][908]PIE: Server logged in
+[2024.05.21-13.04.01:361][908]PIE: Play in editor total start time 0,097 seconds.
+[2024.05.21-13.04.06:267][167]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor0
+[2024.05.21-13.04.11:275][437]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor1
+[2024.05.21-13.04.16:270][708]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor2
+[2024.05.21-13.04.21:277][978]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor3
+[2024.05.21-13.04.26:268][245]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor4
+[2024.05.21-13.04.27:768][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.21-13.04.27:768][322]LogWorld: BeginTearingDown for /Game/Sachi/UEDPIE_0_ThirdPersonMap
+[2024.05.21-13.04.27:769][322]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.05.21-13.04.27:769][322]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.21-13.04.27:769][322]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.05.21-13.04.27:774][322]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.21-13.04.27:779][322]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.21-13.04.27:797][322]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.21-13.04.27:797][322]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.05.21-13.04.27:798][322]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.05.21-13.04.27:800][322]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.05.21-13.04.27:806][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.21-13.04.27:810][322]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.05.21-13.04.27:897][323]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2024.05.21-13.05.48:359][ 50]BlueprintLog: New page: Compile BP_mySpawnedActor
+[2024.05.21-13.05.48:406][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.05.21-13.05.54:799][195]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.21-13.05.54:805][195]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.05.21-13.05.54:805][195]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.05.21-13.05.54:807][195]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 40 ms)
+[2024.05.21-13.05.54:812][195]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.21-13.05.54:812][195]PIE: New page: PIE session: ThirdPersonMap (21.05.2024, 17:05:54)
+[2024.05.21-13.05.54:812][195]LogPlayLevel: Creating play world package: /Game/Sachi/UEDPIE_0_ThirdPersonMap
+[2024.05.21-13.05.54:819][195]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006362s)
+[2024.05.21-13.05.54:819][195]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sachi/ThirdPersonMap.ThirdPersonMap to /Game/Sachi/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.006435s)
+[2024.05.21-13.05.54:842][195]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.05.21-13.05.54:845][195]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.21-13.05.54:845][195]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.21-13.05.54:846][195]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.05.21-13.05.54:847][195]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.05.21-13.05.54:847][195]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.05.21-13.05.54:847][195]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.05.21-13.05.54:847][195]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.05.21-13.05.54:849][195]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.05.21-13.05.54:849][195]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 472 ms)
+[2024.05.21-13.05.54:849][195]LogPlayLevel: PIE: World Init took: (0.004219s)
+[2024.05.21-13.05.54:849][195]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.05.21-13.05.54:849][195]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.21-13.05.54:849][195]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.21-13.05.54:849][195]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.21-13.05.54:849][195]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.21-13.05.54:849][195]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.21-13.05.54:849][195]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.21-13.05.54:849][195]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.21-13.05.54:849][195]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.21-13.05.54:850][195]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.21-13.05.54:850][195]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.21-13.05.54:850][195]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.21-13.05.54:852][195]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.21-13.05.54:885][195]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (Realtek(R) Audio)
+[2024.05.21-13.05.54:886][195]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.21-13.05.54:886][195]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.21-13.05.54:886][195]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.21-13.05.54:888][195]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.05.21-13.05.54:888][195]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.05.21-13.05.54:890][195]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.05.21-13.05.54:890][195]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.05.21-13.05.54:890][195]LogInit: FAudioDevice initialized with ID 15.
+[2024.05.21-13.05.54:890][195]LogAudio: Display: Audio Device (ID: 15) registered with world 'ThirdPersonMap'.
+[2024.05.21-13.05.54:891][195]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.05.21-13.05.54:893][195]LogLoad: Game class is 'GM_Walker_C'
+[2024.05.21-13.05.54:898][195]LogWorld: Bringing World /Game/Sachi/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.05.21-15.05.54
+[2024.05.21-13.05.54:899][195]LogWorld: Bringing up level for play took: 0.006130
+[2024.05.21-13.05.54:902][195]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2024.05.21-13.05.54:903][195]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.05.21-13.05.54:903][195]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.05.21-13.05.54:903][195]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.05.21-13.05.54:907][195]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.05.21-13.05.54:907][195]PIE: Server logged in
+[2024.05.21-13.05.54:908][195]PIE: Play in editor total start time 0,103 seconds.
+[2024.05.21-13.05.59:808][455]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor0
+[2024.05.21-13.06.04:815][725]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor1
+[2024.05.21-13.06.09:803][993]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor2
+[2024.05.21-13.06.12:025][114]LogBlueprintUserMessages: [BP_mySpawnedActor_C_0] Deleted
+[2024.05.21-13.06.14:812][266]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor3
+[2024.05.21-13.06.17:019][388]LogBlueprintUserMessages: [BP_mySpawnedActor_C_1] Deleted
+[2024.05.21-13.06.19:748][536]LogBlueprintUserMessages: [BP_mySpawnedActor_C_2] Deleted
+[2024.05.21-13.06.19:805][539]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor4
+[2024.05.21-13.06.21:808][648]LogBlueprintUserMessages: [BP_mySpawnedActor_C_3] Deleted
+[2024.05.21-13.06.24:804][810]LogBlueprintUserMessages: [BP_mySpawnVolume_C_UAID_901B0E8BC570BBF701_1902276906] BP_mySpawnedActor5
+[2024.05.21-13.06.25:548][856]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.21-13.06.25:548][856]LogWorld: BeginTearingDown for /Game/Sachi/UEDPIE_0_ThirdPersonMap
+[2024.05.21-13.06.25:549][856]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.05.21-13.06.25:549][856]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.21-13.06.25:549][856]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.05.21-13.06.25:559][856]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.21-13.06.25:564][856]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.21-13.06.25:582][856]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.21-13.06.25:582][856]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.05.21-13.06.25:583][856]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.05.21-13.06.25:585][856]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.05.21-13.06.25:591][856]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.21-13.06.25:595][856]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.05.21-13.06.25:672][857]LogPlayLevel: Display: Destroying online subsystem :Context_23
