@@ -3292,3 +3292,10 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.05.21-13.06.25:591][856]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2024.05.21-13.06.25:595][856]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
 [2024.05.21-13.06.25:672][857]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.05.21-13.08.49:617][788]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.21-13.08.49:684][788]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sachi/BP_mySpawnedActor" FILE="../../../../../../Users/kamatsac/Documents/Unreal Projects/MyProject/Content/Sachi/BP_mySpawnedActor.uasset" SILENT=true
+[2024.05.21-13.08.49:690][788]LogSavePackage: Moving output files for package: /Game/Sachi/BP_mySpawnedActor
+[2024.05.21-13.08.49:691][788]LogSavePackage: Moving '../../../../../../Users/kamatsac/Documents/Unreal Projects/MyProject/Saved/BP_mySpawnedActor2A14F472485B031329E458B48F54AE14.tmp' to '../../../../../../Users/kamatsac/Documents/Unreal Projects/MyProject/Content/Sachi/BP_mySpawnedActor.uasset'
+[2024.05.21-13.08.49:699][788]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 2.00 sec)
+[2024.05.21-13.08.49:701][788]AssetCheck: New page: Asset Save: BP_mySpawnedActor
+[2024.05.21-13.08.49:701][788]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Sachi/BP_mySpawnedActor.BP_mySpawnedActor
